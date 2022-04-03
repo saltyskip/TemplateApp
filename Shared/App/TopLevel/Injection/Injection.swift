@@ -15,6 +15,7 @@ extension Resolver: ResolverRegistering {
       registerServices()
       registerRepositories()
       registerInteractors()
+      register { AppSettings() as AppSettingsProtocol }
     }
   }
 

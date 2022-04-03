@@ -39,14 +39,22 @@
 		70202C3327F864FF0073214E /* RealmMigrationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70202C3127F864FF0073214E /* RealmMigrationFactory.swift */; };
 		70202C3527F865350073214E /* RealmMigration2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70202C3427F865350073214E /* RealmMigration2.swift */; };
 		70202C3627F865350073214E /* RealmMigration2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70202C3427F865350073214E /* RealmMigration2.swift */; };
+		70202C3B27F955770073214E /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70202C3A27F955770073214E /* AppSettings.swift */; };
+		70202C3C27F955770073214E /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70202C3A27F955770073214E /* AppSettings.swift */; };
+		70202C4227F95CBC0073214E /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 70202C4127F95CBC0073214E /* DesignSystem */; };
+		70202C4427F95CC30073214E /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 70202C4327F95CC30073214E /* DesignSystem */; };
+		70202C4727F966C40073214E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70202C4627F966C40073214E /* Colors.xcassets */; };
+		70202C4827F966C40073214E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70202C4627F966C40073214E /* Colors.xcassets */; };
+		70202C4A27F967570073214E /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70202C4927F967570073214E /* AppIcon.xcassets */; };
+		70202C4B27F967570073214E /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70202C4927F967570073214E /* AppIcon.xcassets */; };
 		706EC0BC27EF4258004FEE97 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EC0BB27EF4258004FEE97 /* Tests_iOS.swift */; };
 		706EC0BE27EF4258004FEE97 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EC0BD27EF4258004FEE97 /* Tests_iOSLaunchTests.swift */; };
 		706EC0C827EF4258004FEE97 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EC0C727EF4258004FEE97 /* Tests_macOS.swift */; };
 		706EC0CA27EF4258004FEE97 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EC0C927EF4258004FEE97 /* Tests_macOSLaunchTests.swift */; };
 		706EC0CB27EF4258004FEE97 /* TemplateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EC0A327EF4257004FEE97 /* TemplateAppApp.swift */; };
 		706EC0CC27EF4258004FEE97 /* TemplateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706EC0A327EF4257004FEE97 /* TemplateAppApp.swift */; };
-		706EC0CF27EF4258004FEE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EC0A527EF4258004FEE97 /* Assets.xcassets */; };
-		706EC0D027EF4258004FEE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EC0A527EF4258004FEE97 /* Assets.xcassets */; };
+		706EC0CF27EF4258004FEE97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EC0A527EF4258004FEE97 /* Images.xcassets */; };
+		706EC0D027EF4258004FEE97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706EC0A527EF4258004FEE97 /* Images.xcassets */; };
 		706EC0E727EF4478004FEE97 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 706EC0E627EF4478004FEE97 /* Realm */; };
 		706EC0E927EF4478004FEE97 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 706EC0E827EF4478004FEE97 /* RealmSwift */; };
 /* End PBXBuildFile section */
@@ -80,8 +88,12 @@
 		70202C2C27F863B90073214E /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		70202C3127F864FF0073214E /* RealmMigrationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigrationFactory.swift; sourceTree = "<group>"; };
 		70202C3427F865350073214E /* RealmMigration2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigration2.swift; sourceTree = "<group>"; };
+		70202C3A27F955770073214E /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		70202C4027F9592D0073214E /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = text; name = DesignSystem; path = Shared/DesignSystem; sourceTree = SOURCE_ROOT; };
+		70202C4627F966C40073214E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		70202C4927F967570073214E /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 		706EC0A327EF4257004FEE97 /* TemplateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAppApp.swift; sourceTree = "<group>"; };
-		706EC0A527EF4258004FEE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706EC0A527EF4258004FEE97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		706EC0AA27EF4258004FEE97 /* TemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706EC0B027EF4258004FEE97 /* TemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706EC0B227EF4258004FEE97 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -100,6 +112,7 @@
 			files = (
 				70202BF327EF4AE70073214E /* Kingfisher in Frameworks */,
 				70202C0027EF52300073214E /* Foil in Frameworks */,
+				70202C4427F95CC30073214E /* DesignSystem in Frameworks */,
 				70202BF027EF48020073214E /* Resolver in Frameworks */,
 				70202BF627EF4B240073214E /* Bugsnag in Frameworks */,
 				706EC0E927EF4478004FEE97 /* RealmSwift in Frameworks */,
@@ -113,6 +126,7 @@
 			files = (
 				70202C2B27F862150073214E /* Realm in Frameworks */,
 				70202C2527F862010073214E /* Kingfisher in Frameworks */,
+				70202C4227F95CBC0073214E /* DesignSystem in Frameworks */,
 				70202C2327F861F40073214E /* Resolver in Frameworks */,
 				70202C2927F8620A0073214E /* Bugsnag in Frameworks */,
 				70202C2727F862060073214E /* Foil in Frameworks */,
@@ -205,6 +219,24 @@
 			path = Migrations;
 			sourceTree = "<group>";
 		};
+		70202C3927F955480073214E /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				70202C3A27F955770073214E /* AppSettings.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		70202C4527F9667C0073214E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				706EC0A527EF4258004FEE97 /* Images.xcassets */,
+				70202C4627F966C40073214E /* Colors.xcassets */,
+				70202C4927F967570073214E /* AppIcon.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		706EC09D27EF4257004FEE97 = {
 			isa = PBXGroup;
 			children = (
@@ -220,9 +252,9 @@
 		706EC0A227EF4257004FEE97 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				70202C4527F9667C0073214E /* Resources */,
 				706EC0E027EF42AB004FEE97 /* App */,
 				706EC0DF27EF42A1004FEE97 /* Core */,
-				706EC0A527EF4258004FEE97 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -267,6 +299,7 @@
 		706EC0DF27EF42A1004FEE97 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				70202C3927F955480073214E /* UserDefaults */,
 				70202C2F27F864C30073214E /* Realm */,
 				706EC0E427EF42E6004FEE97 /* Interactors */,
 				706EC0E327EF42D9004FEE97 /* DAOs */,
@@ -279,6 +312,7 @@
 		706EC0E027EF42AB004FEE97 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				70202C4027F9592D0073214E /* DesignSystem */,
 				70202C0E27F85A5D0073214E /* TopLevel */,
 				70202C0127EF52640073214E /* Flows */,
 			);
@@ -342,6 +376,7 @@
 				70202BF227EF4AE70073214E /* Kingfisher */,
 				70202BF527EF4B240073214E /* Bugsnag */,
 				70202BFF27EF52300073214E /* Foil */,
+				70202C4327F95CC30073214E /* DesignSystem */,
 			);
 			productName = "TemplateApp (iOS)";
 			productReference = 706EC0AA27EF4258004FEE97 /* TemplateApp.app */;
@@ -367,6 +402,7 @@
 				70202C2627F862060073214E /* Foil */,
 				70202C2827F8620A0073214E /* Bugsnag */,
 				70202C2A27F862150073214E /* Realm */,
+				70202C4127F95CBC0073214E /* DesignSystem */,
 			);
 			productName = "TemplateApp (macOS)";
 			productReference = 706EC0B027EF4258004FEE97 /* TemplateApp.app */;
@@ -468,7 +504,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706EC0CF27EF4258004FEE97 /* Assets.xcassets in Resources */,
+				706EC0CF27EF4258004FEE97 /* Images.xcassets in Resources */,
+				70202C4727F966C40073214E /* Colors.xcassets in Resources */,
+				70202C4A27F967570073214E /* AppIcon.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +514,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706EC0D027EF4258004FEE97 /* Assets.xcassets in Resources */,
+				706EC0D027EF4258004FEE97 /* Images.xcassets in Resources */,
+				70202C4827F966C40073214E /* Colors.xcassets in Resources */,
+				70202C4B27F967570073214E /* AppIcon.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +578,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70202C3B27F955770073214E /* AppSettings.swift in Sources */,
 				70202C1427F85B4B0073214E /* Injection.swift in Sources */,
 				70202C0C27F859570073214E /* TemplateInteractor.swift in Sources */,
 				70202C0627F858B80073214E /* TemplateService.swift in Sources */,
@@ -557,6 +598,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70202C3C27F955770073214E /* AppSettings.swift in Sources */,
 				70202C1527F85B4B0073214E /* Injection.swift in Sources */,
 				70202C0D27F859570073214E /* TemplateInteractor.swift in Sources */,
 				70202C0727F858B80073214E /* TemplateService.swift in Sources */,
@@ -1054,6 +1096,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 706EC0E527EF4478004FEE97 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = Realm;
+		};
+		70202C4127F95CBC0073214E /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		70202C4327F95CC30073214E /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
 		};
 		706EC0E627EF4478004FEE97 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
